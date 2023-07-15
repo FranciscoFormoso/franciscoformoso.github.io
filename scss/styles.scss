@@ -1,0 +1,46 @@
+@import url(../css/estilos.css);
+
+.texto{
+    color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+    
+.texto2{
+    @extend .texto
+}
+}
+.letrarojaFooter {
+    color: red;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+.links2{
+    @extend .letrarojaFooter
+}
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.jugador1{
+    @include flex;
+}
+.jugador2{
+    @include flex;
+}
+.jugador3{
+    @include flex;
+}
+
+@mixin jugadores{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.centrocampistasImagen{
+    @include jugadores;
+}
+.delanterosImagen{
+    @include jugadores;
+}

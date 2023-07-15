@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 20px;
+}
+/* HEADER */
+
+.letraparrafo{  
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+  
+}
+.letrablanca{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+
+}
+.texto{
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.texto2 {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.letraroja{
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #002F87
+}
+.galeria {
+  display: flex;
+  align-items: normal;
+  height: 260px;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    scale: 0.7;
+    font-size: 4rem;
+  }
+  .texto
+  .texto2 {
+    margin-top: 200px;
+  }
+  .galeria {
+    scale: 0.5;
+    display: flex;
+    flex-direction: column;
+  }
+  .galeria:hover {
+    scale: 0.55;
+    transition: 1s;
+  }
+  .galeria img {
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+    margin: 0px;
+  }
+  .texto2 {
+    margin-bottom: 200px;
+  }
+  .letraparrafo p {
+    margin-bottom: 1000px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .galeria:hover {
+    scale: 1.05;
+    transition: 1s;
+  }
+  .galeria img {
+    align-items: center;
+    height: 200px;
+    width: 350px;
+  }
+}
+
+
+.imagen{
+    background-color: #002F87;
+    display: flex; 
+    justify-content: center;
+    background: url(../multimedia/plantel2023azulrecortada.png);
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 1920px 900px;    
+}
+.escudo{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body{ 
+    background-color: #002F87;
+}
+.posiciones{
+    color: red;
+    font-family: sans-serif;
+}
+
+.goleros{
+    margin-bottom: 200px;
+}
+
+.golerosImagen{
+    display: flex;
+    width: 200px;
+    height: 220px;
+}
+.caja img{
+    height: 220px;
+    width: 200px;
+}
+.caja {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    }
+    
+    .jugador1 {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .jugador2 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .jugador3 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+.centrocampistasImagen{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.delanterosImagen{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+}
+.cssEntrevistas{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cssVideosEntrevistas{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.letraEntrevistas{
+    color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.fondoAzul{
+    background-color: #002F87;
+}
+.letraTitulo{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    background-color: #002F87;
+}
+.letraTextogpc{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.gpcTitulos{
+    color: red;
+    margin-left: 15px;
+}
+.datos{
+    margin-top: 25px;
+    color: aliceblue;
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+tr{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+th{
+    color: red;
+}
+.escudoPartidos{
+    height: 10px;
+}
+.datosTitulo{
+    color: red;
+}
+.gpcImagen img{
+    width: 600px;
+    height: 400px;
+    margin-right: 15px;
+}
+main{
+    margin-bottom: 100px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 5rem;
+    background-color: #002F87;
+}
+.pages{
+    color: red;
+    text-decoration:none;
+    font-style: oblique;
+    font-size: 170%;
+}
+.links{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(216, 22, 22);
+    text-decoration: none;
+    display: flex;
+    padding-right: 100px;
+}
+.letrarojaFooter{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.links2{
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(216, 22, 22);
+    text-decoration: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+.letraparrafo {
+    color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .letraroja {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #002F87;
+  }
+  
+  .galeria {
+    display: flex;
+    align-items: normal;
+    height: 260px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+
+  .letraTitulo{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    background-color: #002F87;
+  }
+  
+  .imagen {
+    background-color: #002F87;
+    display: flex;
+    justify-content: center;
+    background: url(../multimedia/plantel2023azulrecortada.png);
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 1920px 900px;
+  }
+  body {
+    background-color: #002F87;
+    background-size: 1920px 1300px;
+    background-repeat: no-repeat;
+    min-width: 400px;
+  }
+  
+  .titulo { /*Titulo*/
+    font-size: 90px;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  main {
+    margin-bottom: 25px;
+  }
+  
+  /*CSS HEADER*/
+  .header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125px;
+    padding: 5px 10%;
+  }
+  
+  main section p:hover {
+    transform: scale(1.02);
+    transition: all 0.9s ease 0s;
+  }
+  
+  main section img:hover {
+    transform: scale(0.99);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .header .logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+  
+  .header .logo img {
+    height: 90px;
+    width: auto;
+    transition: all 0.3s;
+  }
+  
+  .header .logo img:hover {
+    transform: scale(1.2);
+  }
+  
+  .header .nav-links {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  .header .nav-links li:hover,
+  .overlay a:hover {
+    transform: scale(1.1);
+  }
+  
+  .header .nav-links a {
+    font-size: 25px;
+    color: red;
+  }
+  
+  .header .nav-links a:hover {
+    color: red;
+  }
+  
+  /**/
+  .menu {
+    display: none;
+  }
+  
+  .header .btn button,
+  .header .menu button {
+    margin-left: 20px;
+    font-weight: 700;
+    color: red;
+    padding: 15px 35px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .header .btn button:hover,
+  .header .menu button:hover {
+    background-color: #002F87;
+    color: red;
+    font-size: 20px;
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .nav-links, .btn {
+      display: none;
+    }
+    .menu {
+      display: inherit;
+    }
+  }
+  /*CSS de la NavBar en Mobile*/
+  .header a {
+    text-decoration: none;
+  }
+  
+  .header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #002F87;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+  }
+  
+.header .overlay .overlay-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: red;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus {
+    color: red;
+}
+
+.header .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height: 450px) {
+    .header .overlay a {
+    font-size: 20px;
+    }
+    .header .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+.links{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(216, 22, 22);
+  text-decoration: none;
+  display: flex;
+  padding-right: 100px;
+}
+.letrarojaFooter{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.links2{
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(216, 22, 22);
+  text-decoration: none;
+  display: flex;
+  margin-left: 100px;
+}
+footer{
+  background-color: #001d52;
+  background-size: 1000px 200px;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.footer{
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+}
+footer .footer img {
+  display: flex; 
+  height: 30px; 
+  width: 30px; 
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 800px){
+  footer{
+      background-color: #001d52;
+      flex-direction: column;
+  }
+  .letrarojaFooter{
+  margin: 0px;
+  justify-content: center;
+  font-size: 20px;
+  }
+  .links2 {
+  margin-left:0px;
+  font-size: 13px;
+  flex-direction: column;
+  margin-top: 30px;
+  
+  }
+  footer .footer img {
+  margin-top: 30px;
+  }
+  footer img {
+  scale: 0.44;
+  margin-top: 30px;
+  }
+}
+@media screen and (max-width: 800px){
+.caja{
+display: flex;
+flex-direction: column;
+margin-left: 125px;
+margin-bottom: 100px;
+}
+.posiciones h2{
+  font-size: 40px;
+  text-align: center;
+}
+#partidostemporada2023 {
+scale: 0.8;
+}
+.tabla {
+  scale: 0.93;
+}
+}
+.imagengpc {
+  margin-top: 15px; 
+  margin-left: 10px;
+  width: 600px;
+}
+.gpc {
+font-weight: 600;
+}
+
+@media screen and (min-width: 800px){
+  .tabla {
+    scale: 0.9;
+    }
+  }
+
+  .Maingpc {
+scale: 0.95;
+  }
+
+.titulogpc{
+text-align: center; 
+color: red;
+margin-left: 15px;
+}
+
+@media screen and (max-width: 800px){
+.Maingpc {
+scale: 0.94;
+  }
+  .gpc {
+    font-size: 60px;
+    text-align: center;
+  }
+  .Maingpc img {
+margin: 0px;
+  }
+}

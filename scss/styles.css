@@ -1,0 +1,40 @@
+@import url(../css/estilos.css);
+
+
+.texto, .texto .texto2 {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+.letrarojaFooter, .links2 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.jugador1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jugador2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jugador3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.centrocampistasImagen {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.delanterosImagen {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=styles.css.map */
